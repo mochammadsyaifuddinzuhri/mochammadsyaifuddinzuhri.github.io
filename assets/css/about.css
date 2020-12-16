@@ -1,0 +1,77 @@
+header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: red;
+}
+
+/* Header - Navigation*/
+.wrap__nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondaryColor);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.app__logo > a > h1 {
+  color: #fff;
+}
+
+nav ul,
+nav ul li {
+  list-style: none;
+  color: inherit;
+  display: inline-block;
+  font-family: inherit;
+}
+
+.nav__link {
+  color: #fff;
+  margin: 30px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.nav__link:hover,
+.nav__link.active {
+  color: #000;
+}
+
+#about {
+  margin-top: 60px;
+}
+
+.wrap__about {
+  min-height: 30vh;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.img__about img {
+  width: 100%;
+}
+
+.wrap__about h1 {
+  font-size: 2em;
+  color: rgb(41, 37, 37);
+  margin: 30px 0;
+}
+.wrap__about h1 pre {
+  color: var(--primaryColor);
+}
+
+pre {
+  font-family: inherit;
+  display: inline-block;
+}
+
+.wrap__about p {
+  line-height: 30px;
+}

@@ -1,0 +1,42 @@
+:root {
+  --grayColor: #495057;
+  --primaryColor: #db9600;
+  --secondaryColor: #f3ab10;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+footer {
+  background-color: var(--secondaryColor);
+  text-align: center;
+}
+
+footer p {
+  line-height: 50px;
+  font-weight: bold;
+}
+
+footer p a {
+  font-weight: normal;
+}

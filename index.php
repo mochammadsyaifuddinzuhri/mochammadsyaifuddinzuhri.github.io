@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bamboo Restaurant - Syaifuddin</title>
+    <!-- Link Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <!-- Link Css -->
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="wrap__nav">
+        <div class="app__logo">
+          <a href="./index.php">
+            <h1>Bamboo Restaurant</h1>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.php" class="nav__link">Home</a></li>
+            <li><a href="./profile.php" class="nav__link">Profil</a></li>
+            <li><a href="./about.php" class="nav__link">Tentang</a></li>
+            <li><a href="./order.php" class="nav__link">Kasir</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="carousel">
+        <div class="slogan__hero">
+          <h1 class="slogan__title">Anda Puas Kami Senang</h1>
+          <h1 class="app__slogan">BAMBOO RESTAURANT</h1>
+          <a href="./order.php">Pesan Sekarang</a>
+        </div>
+        <img src="./assets/img/hero1.jpeg" class="img__carousel" alt="image carousel">
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Content -->
+    <section id="info">
+      <div class="container">
+        <div class="wrap__info">
+          <h1 class="title__section">Makanan Terbaru</h1>
+          <div class="list">
+            <div class="card">
+              <div class="wrap__img">
+                <img src="./assets/img/1.png" alt="Makanan">
+              </div>
+              <h3>Veggie Burgers</h3>
+              <p>Rp. 15000</p>
+            </div>
+            <div class="card">
+              <div class="wrap__img">
+                <img src="./assets/img/3.png" alt="Makanan">
+              </div>
+              <h3>Salmon Scrambled</h3>
+              <p>Rp. 12000</p>
+            </div>
+            <div class="card">
+              <div class="wrap__img">
+                <img src="./assets/img/2.png" alt="Makanan">
+              </div>
+              <h3>Mustard Salad</h3>
+              <p>Rp. 18000</p>
+            </div>
+            <div class="card">
+              <div class="wrap__img">
+                <img src="./assets/img/4.png" alt="Makanan">
+              </div>
+              <h3>Huevo Crocantes</h3>
+              <p>Rp. 10000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Content -->
+
+    <!-- Footer -->
+    <footer>
+      <p>Powered by <a href="https://github.com/syaifuddinzuhri" target="_blank">Mochammad Syaifuddin Zuhri</a>,
+        Politeknik Negeri
+        Malang</p>
+    </footer>
+
+    <script>
+    window.addEventListener("scroll", function() {
+      var navbar = document.querySelector(".wrap__nav");
+      navbar.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+  </body>
+
+</html>
+<!-- End Footer -->
